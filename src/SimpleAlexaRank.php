@@ -1,6 +1,6 @@
 <?php
 
-namespace RodMcnew\SimpleAlexaRank;
+namespace RM\SimpleAlexaRank;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Response;

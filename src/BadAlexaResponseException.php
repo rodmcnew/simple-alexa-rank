@@ -1,6 +1,6 @@
 <?php
 
-namespace RodMcnew\SimpleAlexaRank;
+namespace RM\SimpleAlexaRank;
 
 /**
  * Class BadAlexaResponseException

@@ -1,5 +1,5 @@
 {
-    "name": "rodmcnew/simple-alexa-rank",
+    "name": "rm/simple-alexa-rank",
     "description": "PHP API for getting the alexa ranks of web sites",
     "require": {
         "guzzlehttp/guzzle": ">=4"
@@ -7,7 +7,7 @@
     "authors": [
         {
             "name": "Rod Mcnew",
-            "email": "rodmcnew@gmail.com"
+            "email": "RM@gmail.com"
         }
     ]
 }
