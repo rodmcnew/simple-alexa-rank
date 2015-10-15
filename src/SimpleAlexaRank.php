@@ -11,6 +11,8 @@ use GuzzleHttp\Psr7\Response;
  */
 class SimpleAlexaRank
 {
+    protected $alexaApiUrl = 'http://data.alexa.com/data?cli=10&url=';
+
     /**
      * Looks up a domain name via the Alexa REST API and
      * returns the web site's "GlobalRank" as an integer
@@ -34,9 +36,7 @@ class SimpleAlexaRank
     public function getAlexaXmlResponse($domainName)
     {
         $client = new Client();
-        $res = $client->get(
-            'http://data.alexa.com/data?cli=10&url=' . urlencode($domainName)
-        );
+        $res = $client->get($this->alexaApiUrl . urlencode($domainName));
         if ($res->getStatusCode() !== 200) {
             throw new BadAlexaResponseException('Alexa API did not return 200/OK');
         }
