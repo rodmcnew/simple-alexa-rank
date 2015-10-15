@@ -3,5 +3,5 @@
 require_once __DIR__ . '/vendor/autoload.php';
 require_once __DIR__ . '/src/SimpleAlexaRank.php';
 
-$api = new \RM\SimpleAlexaRank\SimpleAlexaRank();
+$api = new \SimpleAlexaRank\SimpleAlexaRank\SimpleAlexaRank();
 var_dump($api->getGlobalRank('amazon.com'));
