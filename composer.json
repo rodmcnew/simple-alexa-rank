@@ -1,7 +1,8 @@
 {
-    "name": "simple-alexa-rank/simple-alexa-rank",
-    "description": "PHP API for getting the alexa ranks of web sites",
-    "require": {
-        "guzzlehttp/guzzle": ">=4"
-    }
+  "name": "simple-alexa-rank/simple-alexa-rank",
+  "description": "PHP API for getting the alexa ranks of web sites",
+  "require": {
+    "guzzlehttp/guzzle": ">=4"
+  },
+  "license": "BSD-3-Clause"
 }
