@@ -4,5 +4,10 @@
   "require": {
     "guzzlehttp/guzzle": ">=4"
   },
-  "license": "BSD-3-Clause"
+  "license": "BSD-3-Clause",
+  "autoload": {
+        "psr-4": {
+            "SimpleAlexaRank\SimpleAlexaRank\\": "src/"
+        }
+    }
 }
